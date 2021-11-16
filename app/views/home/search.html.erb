@@ -1,0 +1,5 @@
+<%= form_with url: "/search_user", method: :get do |form| %>
+    <%= form.text_field : id %>
+    <% form.text_field :full_name %>
+    <%= form.submit "Search" %>
+  <% end %>
